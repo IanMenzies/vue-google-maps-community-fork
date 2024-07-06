@@ -1,7 +1,7 @@
 {
   "name": "vue-google-maps-community-fork",
   "description": "Google Maps components for VueJS 3 maintained by the community",
-  "version": "0.3.1",
+  "version": "0.0.1",
   "private": false,
   "main": "src/main.js",
   "keywords": [
@@ -10,9 +10,6 @@
     "Google Maps",
     "Vue 3 Google maps"
   ],
-  "bugs": {
-    "url": "https://github.com/NathanAP/vue-google-maps-community-fork/issues"
-  },
   "scripts": {
     "build": "node service/commands/build.js",
     "lint": "eslint --ext .js,.vue src"
@@ -43,12 +40,7 @@
     "webpack": "^5.74.0",
     "webpack-merge": "^5.8.0"
   },
-  "homepage": "https://vue-google-maps-community-fork.netlify.app",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/NathanAP/vue-google-maps-community-fork.git"
-  },
   "types": "types/index.d.ts",
   "dependencies": {
     "@googlemaps/markerclusterer": "^2.0.3"
